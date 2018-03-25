@@ -92,7 +92,7 @@ function computeUserAverageAge(users) {
   let count = 0;
   let sum = 0;
 
-  for (user in users) {
+  for (let user in users) {
     count++;
     sum += users[user].age;
   }
